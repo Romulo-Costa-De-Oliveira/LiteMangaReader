@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background2"
+    tools:context=".Activity.Register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_create_account"
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        android:layout_marginBottom="140dp"
+        android:textAlignment="center"/>
+
+
+    <EditText
+        android:id="@+id/edt_name_register"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/edt_registrar_nome"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+         />
+
+    <EditText
+        android:id="@+id/edt_email_register"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/edt_email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+         />
+
+    <EditText
+        android:id="@+id/edt_senha_register"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/edt_senha"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+         />
+
+    <EditText
+        android:id="@+id/edt_confirmar_senha_register"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edt_confirmar_senha"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white" />
+
+
+    <CheckBox
+        android:id="@+id/ckb_exibir_senha_register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/white"
+        android:layout_marginRight="70dp"
+        android:text="@string/ckb_exibir_senha_register"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_registrar_register"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="@color/cinzaclaro"
+        android:textColor="@color/white"
+        android:text="@string/btn_registrar"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_login_register"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:background="@color/cinza"
+        android:textColor="@color/white"
+        android:text="@string/btn_login"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <ProgressBar
+        android:id="@+id/login_progress_bar_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:indeterminateTint="@color/white"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:visibility="invisible"/>
+
+</LinearLayout>

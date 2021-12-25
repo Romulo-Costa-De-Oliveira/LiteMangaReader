@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Lite Manga Reader</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_downloads">Downloads</string>
+    <string name="menu_history">Histórico</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_logout">Logout</string>
+    <string name="ckb_exibir_senha_login">Exibir senha</string>
+    <string name="ckb_exibir_senha_register">Exibir senha</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="edt_email">E-mail</string>
+    <string name="edt_senha">Senha</string>
+    <string name="txt_create_account">Criar conta</string>
+    <string name="edt_confirmar_senha">Confirmar senha</string>
+    <string name="edt_registrar_nome">Nome</string>
+    <string name="btn_menu_logout">Logout</string>
+    <string name="senha_diferente">A senha deve ser a mesma em ambos os campos!</string>
+    <string name="exception">Sem conexão com o servidor</string>
+    <string name="email_collision">E-mail já cadastrado.</string>
+    <string name="invalid_email">Endereço de E-mail inválido</string>
+    <string name="password_exception">A senha deve conter no mínimo 6 caracteres</string>
+
+    <string name="ic_nav_home">Home</string>
+    <string name="ic_nav_favorites">Favoritos</string>
+    <string name="ic_nav_downloads">Downloads</string>
+    <string name="ic_nav_history">Histórico</string>
+    <string name="ic_nav_settings">Settings</string>
+
+
+
+
+</resources>

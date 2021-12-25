@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "192257069035",
+    "project_id": "lite-manga-reader-ecd3e",
+    "storage_bucket": "lite-manga-reader-ecd3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192257069035:android:e7d6973715ef2a40a953ae",
+        "android_client_info": {
+          "package_name": "com.example.litemangareader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192257069035-aq3k128kgo5g0ejvuevnjn4vi4344bkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOfSC_eqU_c3LS5qe2VNfrvD1KWR9YeUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192257069035-aq3k128kgo5g0ejvuevnjn4vi4344bkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
